@@ -1,19 +1,19 @@
 import {Routes, Route, Link} from 'react-router-dom'
-import Home from './Pages/home'
-import rick from './Pages/rickandmory'
+import Home from './Pages/home.jsx'
+import Rick from './Pages/rickandmory.jsx'
 
 function App(){
   return(
     <div>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/livros">Livros</Link>
+        <Link to="/rickandmortyapi">rick and mory</Link>
       </nav>
 
       <hr/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/livros" element={<rick/>}/>
+        <Route path="/rickandmortyapi" element={<Rick/>}/>
       </Routes>
     </div>
   )
