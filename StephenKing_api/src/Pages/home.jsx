@@ -13,7 +13,7 @@ function Home() {
       </div>
       <div className="home-content">
         <h1>Rick and Morty Quiz</h1>
-        <p>Teste seu conhecimento no multiverso mais caótico da animação.</p>
+        <p>Teste seu conhecimento no multiverso mais MALUCOOOOOO  da animação.</p>
         <Link to="/quiz">
           <button>Começar Quiz</button>
         </Link>
