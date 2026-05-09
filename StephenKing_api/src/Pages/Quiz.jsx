@@ -30,7 +30,7 @@ function Quiz() {
   }
   if (current >= characters.length) {
     return (
-      <div>
+      <div className="quiz-result">
         <h2>Você acertou {score} de {characters.length}!</h2>
         <button onClick={() => window.location.reload()}>
           Jogar novamente
