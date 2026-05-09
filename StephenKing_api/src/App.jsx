@@ -13,7 +13,6 @@ function App() {
         <Link to="/rickandmortyapi">Rick and Morty</Link>
         <Link to="/Quiz">Quiz</Link>
       </nav>
-      <hr />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rickandmortyapi" element={<Rick />} />
